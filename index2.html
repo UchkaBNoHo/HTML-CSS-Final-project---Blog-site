@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/03eddb7f71.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style2.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- GREETINGS -->
+        <div class="greetings">
+            <div class="text">
+                <span class="type"></span>
+            </div>
+            <div class="date">
+                <i class="fa-solid fa-calendar-days"></i>
+                <p>Monday, November 9, 2023</p>
+            </div>
+        </div>
+
+        <!-- NAVBAR -->
+        <header class="navbar">
+            <div class="logo">
+                <img src="/img/burger_menu_closed.png">
+                <div class="text">
+                    <h1 class="pos1">THE</h1>
+                    <h1 class="pos2">STORM</h1>
+                </div>
+            </div>
+            <div class="menu flex items-center gap-32">
+                <ul class="flex gap-8 font-normal">
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#">Technology</a></li>
+                    <li><a href="#">Astronomy</a></li>
+                    <li><a href="#">Politics</a></li>
+                    <li><a href="#">Sports</a></li>
+                    <li><a href="#">World</a></li>
+                </ul>
+                <i class="fa-solid fa-magnifying-glass text-orange-500"></i>
+            </div>
+        </header>
+
+
+        <!-- SHOWCASE -->
+        <div class="showcase">
+            <div class="icons">
+                <div class="icon">
+                    <i class="fa-solid fa-angle-left"></i>
+                </div>
+                <div class="icon">
+                    <i class="fa-solid fa-angle-right"></i>
+                </div>
+            </div>
+
+            <!-- SHOWCASE CONTENT -->
+            <div class="showcase_content">
+                <div class="category_title">
+                    <h3 class="">TECHNOLOGY</h3>
+                </div>
+                <h1 class=" content_title">Being in Nature: Good for Mind, Body and Nutritiont</h1>
+                <div class="publisher_info flex items-center gap-6">
+                    <div class="flex items-center gap-3">
+                        <img src="/img/publisher1.jpg">
+                        <h1>HENRY</h1>
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <i class="fa-solid fa-calendar-days text-blue-200"></i>
+                        <p>13 SEPTEMBER, 2023</p>
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <i class="fa-solid fa-clock text-blue-200"></i>
+                        <p class="text-blue-200 font-semibold">3 MINS</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <script>
+        var typed = new Typed(".type", {
+            strings: ['WELCOME BACK', 'IT IS NICE TO MEET YOU AGAIN', 'I WISH YOU GOOD LUCK', 'HAVE A GOOD DAY'],
+            typeSpeed: 150,
+            backSpeed: 150,
+            loop: true
+        });
+    </script>
+</body>
+
+</html>

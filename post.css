@@ -1,0 +1,67 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+	font-family: 'Poppins', sans-serif;
+}
+
+
+.navbar {
+	padding-top: 1.5rem;
+	padding-bottom: 1.5rem;
+	position: fixed;
+    background: #ffffff;
+	top: 0;
+	left: 0;
+	right: 0;
+	transition: 0.3s;
+	width: 100%;
+	z-index: 1000;
+}
+
+.changeCss {
+	padding-top: 0.8rem;
+	padding-bottom: 0.8rem;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.changeCss .logo i {
+	color: #333;
+}
+
+.changeCss h1 {
+	color: #333;
+}
+
+.changeCss li a {
+	color: #333;
+}
+
+.changeCss li .active {
+	color: #E5823A;
+}
+
+.crypto_info .super {
+	width: 2800px;
+	display: flex;
+	animation: slide 80s linear infinite;
+}
+
+.post .super {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+@keyframes slide {
+	0% {
+		transform: translateX(50px);
+	}
+	50% {
+		transform: translateX(-1020px);
+	}
+	100% {
+		transform: translateX(50px);
+	}
+}
